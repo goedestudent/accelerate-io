@@ -19,6 +19,7 @@ import Data.Primitive.ByteArray
 
 import GHC.Base
 import GHC.ForeignPtr
+import GHC.Exts (unsafeCoerce#)
 
 
 -- Return the ByteArray underlying a ForeignPtr, or a new byte array if
